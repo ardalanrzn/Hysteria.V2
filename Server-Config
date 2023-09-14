@@ -1,14 +1,14 @@
-listen: :444
+listen: :4888
 tls:
   cert: /root/hy2/ca.crt
   key: /root/hy2/ca.key
 obfs:
   type: salamander
   salamander:
-    password: iSegaro
+    password: ardalanrzn123
 auth:
   type: password
-  password: iSegaro
+  password: 123rznardalan
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
